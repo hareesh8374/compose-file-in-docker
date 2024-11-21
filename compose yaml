@@ -1,0 +1,12 @@
+Docker compose file will return on yaml or yml.
+this command is used to go docker compose [docker-compose.yaml] and
+after creating a file and inside file will be 
+{ version: '3'
+    services:
+       webapp1:
+          image: nginx
+           ports:
+             - "8000:80" }
+  and after in linux docker-compose /usr/local/bin/docker-compose and after 
+  change working on this command is [chmod +x /usr/local/bin/docker-compose].
+  and find out docker-compose version also upstate the [docker-compose up -d] and going to see container.
